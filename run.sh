@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
-wget -N --no-check-certificate http://bit.ly/2p7VAsU
+wget -N --no-check-certificate https://raw.githubusercontent.com/aiastia/us.pub/master/us.pub
 
 mkdir -p /root/.ssh 
 
