@@ -8,13 +8,13 @@
     mkdir -p /root/.ssh
     
 然后添加密钥
-
-    mv /root/key.pub /root/.ssh/authorized_keys 
+    
+    mv /root/key.pub /root/.ssh/authorized_keys 
 
 
 赋予权限 
 
-    chmod 600 /root/.ssh/authorized_keys
+    chmod 600 /root/.ssh/authorized_keys
 
 
 
