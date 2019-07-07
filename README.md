@@ -5,16 +5,18 @@
 
 进入目录
 
-    mkdir -p /root/.ssh
+    wget https://raw.githubusercontent.com/aiastia/key/master/us.pub
+
+    mkdir -p ~/.ssh
     
 然后添加密钥
     
-    mv /root/key.pub /root/.ssh/authorized_keys 
+    mv ~/us.pub /root/.ssh/authorized_keys 
 
 
 赋予权限 
 
-    chmod 600 /root/.ssh/authorized_keys
+    chmod 600 ~/.ssh/authorized_keys
 
 
 
