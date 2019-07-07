@@ -11,7 +11,7 @@
     
 然后添加密钥
     
-    mv ~/us.pub /root/.ssh/authorized_keys 
+    mv ~/us.pub ~/.ssh/authorized_keys 
 
 
 赋予权限 
