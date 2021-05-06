@@ -8,11 +8,14 @@
     wget https://raw.githubusercontent.com/aiastia/key/master/us.pub
 
     mkdir -p ~/.ssh
-    
-然后添加密钥
     
     mv ~/us.pub ~/.ssh/authorized_keys 
 
+#然后添加密钥
+    
+修改密码passwd 
+
+https://1password.com/zh-cn/password-generator/
 
 赋予权限 
 
